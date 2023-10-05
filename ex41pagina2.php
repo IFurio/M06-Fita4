@@ -10,6 +10,8 @@
     <?php
         session_start();
         $_SESSION['ocult'] = $_POST['ocult'];
+        $_SESSION['historial'] = [];
+        $_SESSION['intents'] = 0;
     ?>
     <a href="ex41pagina3.php">Endevinar</a>
     
